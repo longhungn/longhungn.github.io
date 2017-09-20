@@ -9,20 +9,22 @@
   <script src="https://longhungn.github.io/libs/MDB/js/jquery-3.2.1.min.js" charset="utf-8"></script>
   <script src="https://use.fontawesome.com/a204320b31.js"></script>
   <script src="quote-machine.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="quote-machine.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <title>Random Quote</title>
 </head>
 <body>
-<div style="margin-top: 100px" class="container">
+<div id="main-wrapper" class="container">
   <div class="row justify-content-center">
 
     <div class="col-11 col-md-7">
-      <div class="card">
+      <div class="card hoverable">
         <div class="card-body">
           <h1 class="card-title">Get a random quote</h1>
-          <blockquote id="quote-content">
-            hello
+          <blockquote id="quote-content" class="blockquote">
+            N/A
           </blockquote>
-          <p><small>- by <span id="author">test</span></small></p>
+          <p><small>- by <span id="author"></span></small></p>
           <div class="container">
             <div class="row align-items-center justify-content-between" >
               <div class="col ">
@@ -37,8 +39,13 @@
         </div>
       </div>
     </div>
-
+  </div>
 </div>
+<footer>
+  <div class="container-fluid">
+    <p id="credit-link">Powered by <a href="https://quotesondesign.com/">Quotes on Design</a>
+  </p>
 </div>
+</footer>
 </body>
 </html>
