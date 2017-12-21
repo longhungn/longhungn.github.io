@@ -1,0 +1,227 @@
+.mgr-b-t-30 {
+  margin: 30px 0;
+}
+@font-face {
+  font-family: 'Helicopta';
+  src: url('../fonts/helicopta/Helicopta.woff') format('woff'), url('../fonts/helicopta/Helicopta.ttf') format('truetype'), url('../fonts/helicopta/Helicopta.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Meiryo';
+  src: url('../fonts/meiryo/meiryo.ttf') format('truetype'), url('../fonts/meiryo/meiryo.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MeiryoBold';
+  src: url('../fonts/meiryo/meiryob.ttf') format('truetype'), url('../fonts/meiryo/meiryob.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: #d3d3d3;
+  font-size: 16px;
+}
+.container {
+  max-width: 1024px;
+}
+header {
+  background: url('../images/header-bg.png') center top no-repeat;
+}
+.header__bg {
+  background-size: cover;
+  position: relative;
+  padding-bottom: 44.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.header__video {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.header__video--coin {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.header__video--coin video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.header__nav--logo a {
+  display: inline-block;
+  padding: 20px 30px;
+}
+.header__nav--logo img {
+  max-width: 130px;
+}
+.section__inner {
+  background: #ffffff;
+  padding-bottom: 40px;
+}
+.section__inner img {
+  max-width: 100%;
+}
+.title__big {
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 50px;
+  font-family: 'MeiryoBold';
+}
+.title__dive {
+  height: 3px;
+  background: #e62d00;
+  width: 90px;
+  margin: 0 auto 20px;
+}
+.title__small {
+  font-size: 26px;
+  font-weight: 600;
+  padding-bottom: 28px;
+  font-family: 'Meiryo';
+}
+#service {
+  margin: 30px 0;
+}
+#social {
+  background: #ffffff;
+  position: relative;
+}
+#social img {
+  max-width: 100%;
+}
+#social .social__count {
+  font-family: 'Helicopta';
+  color: #8e919f;
+  margin-top: 10px;
+}
+.donwload a {
+  display: inline-block;
+}
+.donwload .donwload__android {
+  padding-left: 0;
+}
+.donwload img {
+  max-width: 100%;
+}
+footer {
+  background: #ffffff url('../images/footer-bg.png') center bottom no-repeat;
+  height: 245px;
+  background-size: cover;
+}
+footer #copyright {
+  padding-top: 190px;
+  color: #fff;
+  font-family: 'Meiryo';
+}
+footer footer {
+  margin-top: 40px;
+}
+@media only screen and (min-width: 1440px) {
+  .header__bg {
+    padding-bottom: 44.25%;
+  }
+  #social .donwload {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 420px;
+  }
+  #social .donwload .donwload__android img,
+  #social .donwload .donwload__ios img {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  footer {
+    height: 100px !important;
+  }
+  footer #copyright {
+    padding-top: 73px !important;
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header__bg {
+    padding-top: 10px;
+    padding-bottom: 70.25% !important;
+  }
+  .header__nav--logo a {
+    padding: 15px;
+  }
+  .header__nav--logo img {
+    max-width: 84px;
+  }
+  .header__video--coin {
+    padding-top: 0;
+  }
+  #service {
+    margin: 15px 0;
+  }
+  .title__big {
+    font-size: 30px;
+  }
+  .title__dive {
+    height: 2px;
+  }
+  .title__small {
+    font-size: 24px;
+  }
+  footer {
+    height: 166px;
+  }
+  footer #copyright {
+    padding-top: 140px;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1439px) {
+  .header__bg {
+    padding-bottom: 58.25%;
+  }
+  #social .donwload {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+  }
+  #social .donwload .donwload__android,
+  #social .donwload .donwload__ios {
+    float: left;
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  #social .donwload .donwload__ios {
+    text-align: right;
+  }
+  #social .donwload .donwload__android {
+    text-align: left;
+  }
+  footer {
+    height: 160px;
+  }
+  footer #copyright {
+    padding-top: 125px;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  .header__bg {
+    padding-bottom: 70%;
+  }
+}
