@@ -26,7 +26,7 @@ body {
 section {
     margin-top: 2vh;
     background-color: white;
-    padding: 3% 5%;
+    padding: 3% 20%;
 }
 
 img {
@@ -49,6 +49,8 @@ img {
 nav>a {
     display: inline-block;
     width: 20%;    
+    max-width: 200px;
+    min-width: 100px;
     margin-top: 2%;
     margin-left: 2%;
     
@@ -116,6 +118,7 @@ hr {
         right: 1vw;
         bottom: 2vw;
         width: 40%;
+        max-width: 440px;
     }
 
     .download-wrapper .image-wrapper {
@@ -128,7 +131,7 @@ hr {
 footer {
     background-image: url("../images/footer-bg.png");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     background-size: cover;
     background-color: white;
     min-height: 160px;
